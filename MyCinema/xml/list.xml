@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cinemaListing.xsl"?>
+<!DOCTYPE cinema [
+
+		<!ELEMENT cinema (film)>
+        <!ELEMENT film (poster, Title, Director, Duration, Description, Genre)>
+        <!ELEMENT poster (#PCDATA)>
+        <!ELEMENT Title (#PCDATA)>
+        <!ELEMENT Director (FirstName, LastName)>
+        <!ELEMENT FirstName (#PCDATA)>
+        <!ELEMENT LastName (#PCDATA)>
+        <!ELEMENT Duration (#PCDATA)>
+        <!ELEMENT Description (#PCDATA)>
+        <!ELEMENT Genre (#PCDATA)>
+        ]>
+
+		
+<cinema>
+
+	<film>		
+		<poster>joker.png</poster>
+		<Title>Joker</Title>
+		<Director>
+			<FirstName>Todd</FirstName>
+			<LastName>Philips</LastName>
+		</Director>
+		<Duration>2h2m</Duration>
+		<Description>Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him. Isolated, bullied and disregarded by society, Fleck begins a slow descent into madness as he transforms into the criminal mastermind known as the Joker.</Description>
+		<Genre>Crime/Drama</Genre>
+	</film>
+	
+	<film>		
+		<poster>f8.jpg</poster>	
+		<Title>Fast 8 [Fast and furious]</Title>
+		<Director>
+			<FirstName>Felix</FirstName>
+			<LastName>Gary Gray</LastName>
+		</Director>
+		<Duration>2h29m</Duration>
+		<Description>Dom encounters a mysterious woman, Cipher, who gets him involved in the world of terrorism. The crew has to reunite to stop Cipher and save the man who brought them together as a family.</Description>
+		<Genre>Action/Thriller</Genre>
+	</film>
+
+	<film>
+		<poster>to.jpeg</poster>
+		<Title>To All the Boys I've Loved Before</Title>
+		<Director>
+			<FirstName>Susan</FirstName>
+			<LastName>Johnson</LastName>
+		</Director>
+		<Duration>1h39m</Duration>
+		<Description>To All the Boys I've Loved Before is an American teen romance film directed by Susan Johnson and written by Sofia Alvarez. The film is about a teenage girl where her secret love letters are exposed and wreaked havoc on her love life.</Description>
+		<Genre>Romance/Drama</Genre>
+	</film>
+
+	<film>		
+		<poster>end.png</poster>	
+		<Title>Avengers: Endgame</Title>
+		<Director>
+			<FirstName>Joe</FirstName>
+			<LastName>Russo</LastName>
+		</Director>
+		<Duration>3h2m</Duration>
+		<Description>After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</Description>
+		<Genre>Action/Sci-fi</Genre>
+	</film>	
+	
+	<film>
+		<poster>wonder.jpg</poster>
+		<Title>Wonder Woman</Title>
+		<Director>
+			<FirstName>Patty</FirstName>
+			<LastName>Jenkins</LastName>
+		</Director>
+		<Duration>2h29m</Duration>
+		<Description>Princess Diana of an all-female Amazonian race rescues US pilot Steve. Upon learning of a war, she ventures into the world of men to stop Ares, the god of war, from destroying mankind.</Description>
+		<Genre>Action/War</Genre>
+	</film>
+	
+	
+
+
+
+</cinema>
